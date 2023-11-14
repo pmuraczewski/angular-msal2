@@ -5,13 +5,13 @@ name: .NET
 
 on:
   push:
-    branches: [ "masterv2" ]
+    branches: [ "master" ]
     paths:
       - 'api/.**'
       - 'WebApplication1/.**'
       - 'api\WebApplication1/.*'
   pull_request:
-    branches: [ "masterv2" ]
+    branches: [ "master" ]
     paths:
       - 'api/.**'
       - 'WebApplication1/.**'
