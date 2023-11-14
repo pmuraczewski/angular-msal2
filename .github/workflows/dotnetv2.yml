@@ -5,10 +5,15 @@ name: .NET
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "masterv2" ]
+    paths:
+      - 'api/.**'
+      - 'WebApplication1/.**'
   pull_request:
-    branches: [ "master" ]
-
+    branches: [ "masterv2" ]
+    paths:
+      - 'api/.**'
+      - 'WebApplication1/.**'
 jobs:
   build:
 
