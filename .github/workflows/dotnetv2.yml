@@ -7,15 +7,13 @@ on:
   push:
     branches: [ "master" ]
     paths:
-      - 'api/.**'
-      - 'WebApplication1/.**'
-      - 'api/WebApplication1/.**'
+    - '**.cs'
+    - '**.csproj'
   pull_request:
     branches: [ "master" ]
     paths:
-      - 'api/.**'
-      - 'WebApplication1/.**'
-      - 'api/WebApplication1/.**'
+    - '**.cs'
+    - '**.csproj'
 jobs:
   build:
 
