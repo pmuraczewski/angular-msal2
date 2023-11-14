@@ -5,14 +5,14 @@ name: .NET Build and Test
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "masterv2" ]
     paths:
       - 'src/**'
       - 'tests/**'
       - 'api/.**'
       - 'WebApplication1/.**'
   pull_request:
-    branches: [ "master" ]
+    branches: [ "masterv2" ]
     paths:
       - 'src/**'
       - 'tests/**'
