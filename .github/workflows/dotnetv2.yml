@@ -9,13 +9,13 @@ on:
     paths:
       - 'api/.**'
       - 'WebApplication1/.**'
-      - 'api\WebApplication1/.*'
+      - 'api/WebApplication1/.**'
   pull_request:
     branches: [ "master" ]
     paths:
       - 'api/.**'
       - 'WebApplication1/.**'
-      - 'api\WebApplication1/.*'
+      - 'api/WebApplication1/.**'
 jobs:
   build:
 
